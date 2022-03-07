@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <h2>Metric / Imperial unit conversion</h2>
+            <input id="user-input" placeholder="0"></input>
+            <span id="error-input"></span>
+        </div>
+        <div class="data-container">
+            <div class="length-container sub-container-padding">
+                <h4 class="content-padding">Length (Meter/Feet)</h4>
+                <span id="length-conversion">0 meters = 0.000 feet | 0 feet = 0.000 meters</span>
+            </div>
+            <div class="volume-container sub-container-padding">
+                <h4 class="content-padding">Volume (Liters/Gallons)</h4>
+                <span id="volume-conversion">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</span> 
+            </div>
+            <div class="mass-container sub-container-padding">
+                <h4 class="content-padding">Mass (Kilograms/Pounds)</h4>
+                <span id="mass-conversion">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
